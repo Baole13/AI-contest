@@ -1,6 +1,6 @@
-# 🧠 Tetris AI Agent
+# Tetris AI Agent
 
-## 📝 Overview
+## Overview
 This project implements a **Tetris-playing AI agent** built on top of a custom Tetris environment.  
 The agent uses a **heuristic evaluation function** optimized through **genetic algorithm weights** to determine the best sequence of moves.
 
@@ -8,7 +8,7 @@ The core logic resides in the `Agent.py` file, which simulates the Tetris game e
 
 ---
 
-## 🎮 Features
+## Features
 - Complete **Tetris environment simulation** (board state, blocks, rotations, collision checking).
 - **Seven standard Tetris pieces** supported: I, O, J, L, Z, S, and T.
 - Heuristic-based **move evaluation** (using height, holes, block count, line clears, etc.).
@@ -17,7 +17,7 @@ The core logic resides in the `Agent.py` file, which simulates the Tetris game e
 
 ---
 
-## 🧩 Code Structure
+## Code Structure
 
 ### 1. Core Classes and Functions
 
@@ -46,7 +46,7 @@ Main AI decision-maker that:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The agent reads the Tetris board state (`obs`).
 2. It reconstructs the board and next pieces.
@@ -58,7 +58,7 @@ Main AI decision-maker that:
 
 ---
 
-## 🧮 Heuristic Function
+## Heuristic Function
 
 The agent uses a vector of weights (`self.gen`) to evaluate board states:
 
@@ -78,7 +78,7 @@ These weights were likely evolved via a **genetic algorithm** to maximize perfor
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Prerequisites
 - Python 3.8+
