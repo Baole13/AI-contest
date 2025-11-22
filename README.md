@@ -1,5 +1,5 @@
 # Tetris AI Agent
-
+https://github.com/user-attachments/assets/eba36af1-022e-4892-a173-785dbc609a7b
 ## Overview
 This project implements a **Tetris-playing AI agent** built on top of a custom Tetris environment.  
 The agent uses a **heuristic evaluation function** optimized through **genetic algorithm weights** to determine the best sequence of moves.
